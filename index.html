@@ -3,36 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitrine Pro | Barbieri RD</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="logo">BARBIERI<span>STORE</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Diferenciais</a></li>
+                <li><a href="#contato" class="btn-contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <h1>Qualidade e Estilo em cada Detalhe.</h1>
+                <p>Explore nossa curadoria exclusiva. Design moderno, navegação rápida e reserva direta via WhatsApp.</p>  
+                <div class="actions">
+                    <a href="#produtos" class="btn-main">Explorar Catálogo</a>
+                    <a href="#sobre" class="btn-sec">Saiba Mais</a>
+                </div>  
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80" alt="Produto Destaque">
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos" class="container product-section">
+        <div class="section-header">
+            <h2>Nossos Produtos</h2>
+            <p>Selecione o item desejado e faça sua reserva instantânea.</p>
+        </div>
+        
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400" alt="Produto 1">
+                </div>
+                <div class="product-info">
+                    <span class="category">Premium</span>
+                    <h3>Tênis Performance X</h3>
+                    <p class="price">R$ 299,90</p>
+                    <a href="https://wa.me/SEU_NUMERO?text=Olá! Tenho interesse no Tênis Performance X (R$ 299,90). Poderia me informar a disponibilidade?" target="_blank" class="btn-reserve">
+                        <i class="fab fa-whatsapp"></i> Reservar Item
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=400" alt="Produto 2">
+                </div>
+                <div class="product-info">
+                    <span class="category">Casual</span>
+                    <h3>Vans Classic Black</h3>
+                    <p class="price">R$ 189,00</p>
+                    <a href="https://wa.me/SEU_NUMERO?text=Olá! Gostaria de saber mais sobre o Vans Classic Black." target="_blank" class="btn-reserve">
+                        <i class="fab fa-whatsapp"></i> Reservar Item
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=400" alt="Produto 3">
+                </div>
+                <div class="product-info">
+                    <span class="category">Eletrônicos</span>
+                    <h3>Headset Studio Pro</h3>
+                    <p class="price">R$ 450,00</p>
+                    <a href="https://wa.me/SEU_NUMERO?text=Olá! Quero reservar o Headset Studio Pro." target="_blank" class="btn-reserve">
+                        <i class="fab fa-whatsapp"></i> Reservar Item
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="features container">
+        <div class="feature-card">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Compra Segura</h3>
+            <p>Processos transparentes e segurança garantida pela Barbieri RD.</p>
+        </div>   
+        <div class="feature-card">
+            <i class="fas fa-bolt"></i>
+            <h3>Agilidade</h3>
+            <p>Reserve pelo site e finalize a compra em segundos no WhatsApp.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-star"></i>
+            <h3>Exclusividade</h3>
+            <p>Produtos selecionados para quem não aceita o comum.</p>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="card-barbieri">
+                <div class="card-header">
+                    <span class="status-online"></span> OPERAÇÃO: BARBIERI SECURITY RD
+                </div>
+                <div class="card-body">
+                    <h3>Desenvolvido por Barbieri</h3>
+                    <p>Sistemas otimizados, design de alta performance e segurança de ponta.</p>
+                    <div class="badges">
+                        <span class="badge">Next-Gen Web</span>
+                        <span class="badge">CyberSec</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+           <p>&copy; 2026 AmogoticasEruivas Barbieri RD - Todos os direitos reservados</p>
+        </footer>   
+        </div>
+    </footer>
+
+    <a href="https://wa.me/SEU_NUMERO" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template Base | Barbieri RD</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     
-    <header>
-        <nav class="container">
-            <div class="logo">BARBIERI<span>STORE</span></div>
-            <ul>
-        <li><a href="home">Inícios</a></li>
-        <li><a href="produtos">Produtos</a></li>
-        <li><a href="sobre">Sobre</a></li>
-        <li><a href="contato" class="btn-contato">Falar Conosco</a></li>
-         <ul>
-    </nav>
-    </header>
+    
 
     <section id="home" class="hero">
       <div class="container hero-grid">
       </div class="hero-text">
      <h1>Qualidade e Estilo em cada Detalhe. </h1>
-     <p>Descubra os melhores produtos com a qualidade que você merece.</p>  
+     
      <div class="actions">
         <a href="produtos" class="btn-main">Ver Produtos</a>
         <a href="contato" class="btn btn-seco">Saber Mais</a>
      </div>    
     </div>
     <div class="hero-image">
-       <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&wshadow=800&q=80" alt="Produto Destaque" style="width: 100%; height: auto; border-radius: 10px;">
+     
     </div>
 </div>
     </section>
@@ -40,25 +168,7 @@
         <i class="fab fa-whatsapp"></i>
     </a>
 
-      
-        <section id="sobre" class="features container">
-         <div class="feature-card">
-            <i class="fas fa-shield-alt"></i>
-            <h3>Compra Segura</h3>
-            <p>Garantimos a segurança de suas informações e transações.</p>
-         </div>   
-         <div class="feature-card">
-            <i class="fas fa-truck"></i>
-            <h3>Entrega Rápida</h3>
-            <p>Receba seus produtos com rapidez e eficiência.</p>
-         </div>
-
-         <div class="feature-card">
-            <i class="fas fa-star"></i>
-            <h3>Qualidade Garantida</h3>
-            <p>Oferecemos apenas produtos de alta qualidade para nossos clientes.</p>
-         </div>
-        </section>
+     
  
 
         <h2> O que nossos clientes dizem </h2>
@@ -88,6 +198,28 @@
         </div>
     
         </div>
+        <section id="final-apresentacao" class="final-section">
+    <div class="card-barbieri">
+        <div class="card-header">
+            <span class="status-online"></span> OPERAÇÃO: BARBIERI SECURITY RD
+        </div>
+        <div class="card-body">
+            <h3>Quem é Barbieri?</h3>
+            <p>Software Engineer & Hacker Specialist em fase de ascensão. Não apenas construo interfaces; projeto sistemas blindados e otimizo o hardware biológico. O foco aqui é a excelência radical.</p>
+            
+            <div class="loja-preview">
+                <h4>A Loja</h4>
+                <p>Nossa plataforma é o ponto de convergência entre segurança cibernética e design de alta performance.</p>
+            </div>
+            
+            <div class="badges">
+                <span class="badge">Python</span>
+                <span class="badge">CyberSec</span>
+                <span class="badge">Aesthetics</span>
+            </div>
+        </div>
+    </div>
+</section>
     </footer>
 
 
